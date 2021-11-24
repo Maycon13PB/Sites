@@ -1,0 +1,25 @@
+Ferramentas usadas 
+
+Desenvolvimento de texto 
+--> HTML5
+
+Desenvolvimento da estrutura Design do site 
+-->CSS3
+
+Escolha das cores 
+-->Adobe Color 
+
+Escolha da Fonte 
+-->Google Fonts: Browse Fonts
+
+Escolha das imagens 
+-->Unsplash
+
+Criação de banco de dados 
+-->phpMYAdmin
+
+Criação de conexão entre o banco de dados e o site 
+--> PHP
+
+
+ 

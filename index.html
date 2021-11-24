@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <script src="script.js"></script>
+    <title> Veterinária</title>
+</head>
+<body>
+    <header>
+        <h1 > Veterinária</h1>
+        <nav>
+            <ul>
+                <a href="#">Home</a>
+                <a href="#serviços">Serviços</a>
+                <a href="#prencher">Cadastre</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class="welcom ">
+                <h1>Bem-vindo </h1>
+                <img src="imagens/pessoas.jpg" alt="">
+                <h2>Lorem ipsum dolar sit amet</h2>
+                <p id="serviços">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eveniet, a molestiae deserunt ut veniam, itaque fuga mollitia unde temporibus voluptas illo at ea ullam aut assumenda ipsa modi vel.</p>
+            </article>
+            <article class="serviços" >
+                <h1>Serviços prestados</h1>
+                <hr>
+                <div class="container-primario">
+                    <img src="imagens/Analise.jpg" alt="">
+                    <div class="conteudo">
+                        <h2>Lorem ipsum dolar sit amet</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam culpa doloremque eveniet eaque, pariatur dolore dolorum molestiae laborum aliquam veritatis sunt nostrum corrupti quae quod fuga ipsam, non, ipsum quisquam?</p>
+                    </div>
+                </div>
+                <div class="container-secundario"> 
+                    <div class="conteudo">
+                        <h2>Lorem ipsum dolar sit amet</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae blanditiis, ipsum ullam suscipit facilis architecto iure magni qui at sapiente consectetur, numquam consequuntur odit est ab ratione recusandae quo nesciunt?</p>
+                    </div>
+                    <img src="imagens/salsicha.jpg" alt="">
+                </div>
+
+            </article>
+        
+        <section>
+            <div class="formulario"  >
+                <h1>Contate-nos</h1>
+                <hr>
+                <h2>Agende a sua consulta hoje</h2>
+                <p id="prencher" >Preencha os campos abaixo </p>
+                <form action="usuario.php" method="post">
+
+                    <div class="formulario">
+                        <label for="nome"></label>
+                        <input required type="text" name="nome" placeholder="Nome Completo" id="nome">
+
+                        <label for="data"></label>
+                        <input placeholder="Data" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="data" name="data">
+                        
+                        <label for="telefone"> </label>
+                        <input type="number"name="telefone" placeholder="Telefone" id="telefone">
+
+                        <label for="sexo"></label>
+                         <select name="sexo" id="sexo">
+                             <option value="Sexo">Sexo</option>
+                             <option value="Masculino"> Masculino </option>
+                             <option value="Feminino"> Feminino </option>
+                         </select>
+
+                        <label for="email"></label>
+                        <input required type="email" name="email" placeholder="E-mail" id="email">
+
+                        <label for="cep"></label>
+                        <input required type="number" name="cep" placeholder="CEP" id="cep">
+                        
+                        <label for="rua"></label>
+                        <input required type="text" name="rua" placeholder="Rua" id="rua">
+
+                        <label for="numero"></label>
+                        <input required type="number" name="numero" placeholder="Numero" id="numero">
+
+                        <label for="complemento"></label>
+                        <input required type="text" name="complemento" placeholder="complemento" id="complemento">
+                        
+                        <label for="cidade"></label>
+                        <input required type="text" name="cidade" placeholder="Cidade" id="cidade">
+                        
+                      
+                            <label  for="estado"></label>
+                            <select name="estado" id="estado">
+                                <option value=""> Selecione o seu Estado </option>
+                                <option value="Acre">AC</option>
+                                <option value="Amapá">AP</option>
+                                <option value="Amazonas">AM</option>
+                                <option value="Bahia">BA</option>
+                                <option value="Ceará">CE</option>
+                                <option value="Distrito Federal">DF</option>
+                                <option value="Espirito Santo">ES</option>
+                                <option value="Goiás">GO</option>
+                                <option value="Maranhão">MA</option>
+                                <option value="Mato Grosso do Sul">MS</option>
+                                <option value="Minas Gerais">MG</option>
+                                <option value="Paraíba">PB</option>
+                                <option value="Paraná">PR</option>
+                                <option value="PErnambuco">PE</option>
+                                <option value="Piaui">PI</option>
+                                <option value="Roraima">RR</option>
+                                <option value="Rondônia">RO</option>
+                                <option value="Rio de janeiro">RJ</option>
+                                <option value="Rio Grande do Norte">RN</option>
+                                <option value="Rio Grande do Sul">RS</option>
+                                <option value="Santa Catarina">SC</option>
+                                <option value="São Paulo">SP</option>
+                                <option value="Sergipe">SE</option>
+                                <option value="Tocantins">TO</option>
+                            </select>
+                        
+                    </div>
+
+                    <input class="botao" type="submit" name="enviar" value="Enviar">
+                </form>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Veterinária-2021&copy;</p>
+        
+    </footer>
+</body>
+</html>
